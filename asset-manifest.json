@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/naveenveera7/MyPortfolio/static/css/main.b31b5df0.css",
+    "main.js": "/naveenveera7/MyPortfolio/static/js/main.5ff1f5bd.js",
+    "static/media/tanjirou-kamado-kimetsu-no-yaiba-uhdpaper.com-4K-109.jpg": "/naveenveera7/MyPortfolio/static/media/tanjirou-kamado-kimetsu-no-yaiba-uhdpaper.com-4K-109.7a9fc9e4daa8178c395f.jpg",
+    "static/media/cyberSecurity.png": "/naveenveera7/MyPortfolio/static/media/cyberSecurity.2a2467588b26d2feb479.png",
+    "static/media/Screenshot 2024-03-25 121021.png": "/naveenveera7/MyPortfolio/static/media/Screenshot 2024-03-25 121021.793a47170891917fe210.png",
+    "static/media/photo.jpg": "/naveenveera7/MyPortfolio/static/media/photo.6eb3de3e52a903825e42.jpg",
+    "static/media/Profile.jpg": "/naveenveera7/MyPortfolio/static/media/Profile.d31632a5316acd9d208e.jpg",
+    "static/media/java.jpeg": "/naveenveera7/MyPortfolio/static/media/java.9f696ba13d4ce9d08feb.jpeg",
+    "static/media/python.jpeg": "/naveenveera7/MyPortfolio/static/media/python.f90077deb60c6912868c.jpeg",
+    "static/media/webdev.png": "/naveenveera7/MyPortfolio/static/media/webdev.e0030ce73b490264cfda.png",
+    "static/media/sql.png": "/naveenveera7/MyPortfolio/static/media/sql.8da9c8a7478dd84f32bc.png",
+    "index.html": "/naveenveera7/MyPortfolio/index.html",
+    "main.b31b5df0.css.map": "/naveenveera7/MyPortfolio/static/css/main.b31b5df0.css.map",
+    "main.5ff1f5bd.js.map": "/naveenveera7/MyPortfolio/static/js/main.5ff1f5bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b31b5df0.css",
+    "static/js/main.5ff1f5bd.js"
+  ]
+}

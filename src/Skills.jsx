@@ -42,6 +42,12 @@ function Skills() {
                 <div className="progress-bar" style={{width:"60%"}}></div>
               </div>
             </div>
+            <div className="progress">
+              <span className="skill"><span>Python</span> <i className="val">70%</i></span>
+              <div className="progress-container">
+                <div className="progress-bar" style={{width:"70%"}}></div>
+              </div>
+            </div>
 
           </div>
 
@@ -74,7 +80,14 @@ function Skills() {
                 <div className="progress-bar" style={{width:"80%"}}></div>
               </div>
             </div>
+            
 
+            <div className="progress">
+              <span className="skill"><span></span> <i className="val">80%</i></span>
+              <div className="progress-container">
+                <div className="progress-bar" style={{width:"80%"}}></div>
+              </div>
+            </div>
           </div>
 
         </div>

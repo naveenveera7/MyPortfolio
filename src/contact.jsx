@@ -24,22 +24,22 @@ function contact() {
               <div className="inside-form">
 
                 <div className="form-field">
-                  <label for="name-field" className="pb-2">Your Name</label>
+                  <label for="name-field" >Your Name</label>
                   <input type="text" name="name" id="name-field" className="form-control" required="Enter Name" />
                 </div>
 
                 <div className="form-field">
-                  <label for="email-field" className="pb-2">Your Email</label>
+                  <label for="email-field" >Your Email</label>
                   <input type="email" className="form-control" name="email" id="email-field" required="Enter Mail" />
                 </div>
 
                 <div className="form-field">
-                  <label for="subject-field" className="pb-2">Subject</label>
+                  <label for="subject-field" >Subject</label>
                   <input type="text" className="form-control" name="subject" id="subject-field" required="enter Subject" />
                 </div>
 
                 <div className="form-field">
-                  <label for="message-field" className="pb-2">Message</label>
+                  <label for="message-field" >Message</label>
                   <textarea className="form-control" name="message" rows="10" id="message-field" required="Enter Something"></textarea>
                 </div>
 

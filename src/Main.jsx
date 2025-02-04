@@ -17,6 +17,7 @@ function Main() {
 
       if (homeBounds.top < window.innerHeight && homeBounds.bottom > 0) {
         setIsButtonVisible(false);
+        
       } else {
         setIsButtonVisible(true);
       }
@@ -28,6 +29,8 @@ function Main() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  
+ 
   return (
     <main class="main">
       <Header />

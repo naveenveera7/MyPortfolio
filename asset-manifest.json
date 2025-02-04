@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/naveenveera7/MyPortfolio/static/css/main.b31b5df0.css",
-    "main.js": "/naveenveera7/MyPortfolio/static/js/main.5ff1f5bd.js",
+    "main.css": "/naveenveera7/MyPortfolio/static/css/main.0373a455.css",
+    "main.js": "/naveenveera7/MyPortfolio/static/js/main.b5ec41d7.js",
     "static/media/tanjirou-kamado-kimetsu-no-yaiba-uhdpaper.com-4K-109.jpg": "/naveenveera7/MyPortfolio/static/media/tanjirou-kamado-kimetsu-no-yaiba-uhdpaper.com-4K-109.7a9fc9e4daa8178c395f.jpg",
     "static/media/cyberSecurity.png": "/naveenveera7/MyPortfolio/static/media/cyberSecurity.2a2467588b26d2feb479.png",
     "static/media/Screenshot 2024-03-25 121021.png": "/naveenveera7/MyPortfolio/static/media/Screenshot 2024-03-25 121021.793a47170891917fe210.png",
@@ -12,11 +12,11 @@
     "static/media/webdev.png": "/naveenveera7/MyPortfolio/static/media/webdev.e0030ce73b490264cfda.png",
     "static/media/sql.png": "/naveenveera7/MyPortfolio/static/media/sql.8da9c8a7478dd84f32bc.png",
     "index.html": "/naveenveera7/MyPortfolio/index.html",
-    "main.b31b5df0.css.map": "/naveenveera7/MyPortfolio/static/css/main.b31b5df0.css.map",
-    "main.5ff1f5bd.js.map": "/naveenveera7/MyPortfolio/static/js/main.5ff1f5bd.js.map"
+    "main.0373a455.css.map": "/naveenveera7/MyPortfolio/static/css/main.0373a455.css.map",
+    "main.b5ec41d7.js.map": "/naveenveera7/MyPortfolio/static/js/main.b5ec41d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b31b5df0.css",
-    "static/js/main.5ff1f5bd.js"
+    "static/css/main.0373a455.css",
+    "static/js/main.b5ec41d7.js"
   ]
 }

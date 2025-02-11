@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.a05833d2.css",
-    "main.js": "/MyPortfolio/static/js/main.d5e976b9.js",
+    "main.css": "/MyPortfolio/static/css/main.c7201be5.css",
+    "main.js": "/MyPortfolio/static/js/main.9b1e63f9.js",
     "static/media/tanjirou-kamado-kimetsu-no-yaiba-uhdpaper.com-4K-109.jpg": "/MyPortfolio/static/media/tanjirou-kamado-kimetsu-no-yaiba-uhdpaper.com-4K-109.7a9fc9e4daa8178c395f.jpg",
     "static/media/cyberSecurity.png": "/MyPortfolio/static/media/cyberSecurity.2a2467588b26d2feb479.png",
     "static/media/Screenshot 2024-03-25 121021.png": "/MyPortfolio/static/media/Screenshot 2024-03-25 121021.793a47170891917fe210.png",
@@ -12,11 +12,11 @@
     "static/media/webdev.png": "/MyPortfolio/static/media/webdev.e0030ce73b490264cfda.png",
     "static/media/sql.png": "/MyPortfolio/static/media/sql.8da9c8a7478dd84f32bc.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.a05833d2.css.map": "/MyPortfolio/static/css/main.a05833d2.css.map",
-    "main.d5e976b9.js.map": "/MyPortfolio/static/js/main.d5e976b9.js.map"
+    "main.c7201be5.css.map": "/MyPortfolio/static/css/main.c7201be5.css.map",
+    "main.9b1e63f9.js.map": "/MyPortfolio/static/js/main.9b1e63f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a05833d2.css",
-    "static/js/main.d5e976b9.js"
+    "static/css/main.c7201be5.css",
+    "static/js/main.9b1e63f9.js"
   ]
 }

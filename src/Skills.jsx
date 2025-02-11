@@ -6,7 +6,7 @@ function Skills() {
         </div>
         
         <div>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>These are my skills and the level of my knowledge on the topics</p>
       </div>
 
       <div >

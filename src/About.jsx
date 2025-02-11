@@ -12,9 +12,9 @@ function About() {
         </p>
       </div>
   <div className="container">
-  <div className="about-img"></div>
-  <div className="box">
-  <h2>Web Developer</h2>
+    <div className="about-img"></div>
+    <div className="box">
+      <h2>Web Developer</h2>
         <p>
             I Am Naveen Veera Studying Bacheoler of Technology Final year in
             PACE Institute of Technology and Sciences,Vallure, in the Stream of

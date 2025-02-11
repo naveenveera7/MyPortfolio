@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
   background-position: top right;
   font-family: Raleway, sans-serif;
+  
 }
 h1 {
   font-size: 32px;
@@ -22,14 +23,10 @@ h1 {
 .header {
   margin: 0;
   padding: 0;
-  height: 560px;
+  height: 550px;
   display: flex;
   align-items: center;
 }
-/* .head-con{
-  top:0;
-  position: sticky;
-} */
 .image {
   display: flex;
   flex-direction: column;
@@ -49,18 +46,31 @@ h1 {
 .profile:hover {
   box-shadow: 0 0 48px 16px rgb(86, 145, 182);
 }
+.profile:active{
+  border-radius: 8px;
+  border: none;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 0 32px 4px rgb(86, 145, 182);
+}
 .social a {
   width: 40px;
   height: 40px;
   margin: 5px;
   margin-top: 0;
+  padding: 2px;
   color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
   background-color: rgb(36, 34, 34);
   border-radius: 50%;
   text-align: center;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+.social a:hover{
+  color: #149ddd;
 }
 nav {
   background-color: rgb(0, 0, 0);
@@ -77,7 +87,7 @@ nav {
 }
 nav ul {
   margin: 10px;
-  padding: 0;
+  padding-left: 20px;
   list-style-type: none;
 }
 ul li {
@@ -87,12 +97,21 @@ li a {
   text-decoration: none;
   color: rgba(240, 248, 255, 0.642);
   font-size: 16px;
+  padding: 10px;
 }
 
 nav a:hover {
   color: aliceblue;
 }
-
+.nav-icon{
+  padding:10px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  font-weight: lighter;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+}
 .name {
   padding: 0;
   margin: 0;
@@ -148,6 +167,9 @@ nav a:hover {
 }
 .about .container {
   display: flex;
+  animation: second linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .about .box {
   padding-left: 20px;
@@ -194,6 +216,10 @@ nav a:hover {
   justify-content: space-between;
   margin-top: 4rem;
   padding: 0;
+  display: flex;
+  animation: second linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .progress {
   margin-bottom: 30px;
@@ -204,12 +230,14 @@ nav a:hover {
   background-color: #e0e0df;
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 26%;
+  
 }
 .progress-bar {
   height: 100%;
   background-color: #149ddd;
-  width: 0;
-  transition: width 0.4s ease;
 }
 .skill {
   font-size: 12px;
@@ -224,24 +252,41 @@ nav a:hover {
 .project-row {
   display: flex;
 }
+.projects .title{
+  text-decoration-thickness: 2px;
+}
+.projects .title i{
+  color: #5ad5fa;
+  font-size: 1.5rem;
+}
+.projects .title:hover i{
+  color: black;
+}
+.projects .first{
+  animation: second linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
 .project-card .description {
   margin-bottom: 30px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+opacity: 0.5;
 }
 .project-card {
   margin: 5px;
   padding: 20px;
-  box-shadow: 0 0 2px 1px skyblue;
+  box-shadow: 0 0 8px 2px skyblue;
   /* background-image: url("./assests/logo.svg"); */
   border-radius: 1rem;
   cursor:pointer;
   transition: all 0.5s ease-in;
 }
 .project-card a {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
   text-decoration: none;
-  box-shadow: 0 4px 8px 2px gray;
-  background-color: rgb(175, 232, 245);
-  border-radius: 10px;
+  background-color: white;
+  border-radius: 4px;
   padding: 10px;
   color: black;
   transition: all 0.3s ease;
@@ -250,24 +295,28 @@ nav a:hover {
 .project-card a:hover{
   border: 1px solid black;
   box-shadow: 0 2px 8px 2px rgb(161, 222, 244);
+  background-color: rgb(141, 223, 252);
 }
 .project-card:hover a {
   opacity: 1;
 }
 .project-card:hover {
   transform: scale(1.05);
-  box-shadow: 2px 2px 16px 4px rgb(183, 237, 249);
+  box-shadow: 0px 0px 16px 4px rgb(111, 216, 240);
+  background: linear-gradient(to bottom, white,rgb(251, 133, 133));
   z-index: 1;
 }
 
 .project-container:hover .project-card:not(:hover) {
   opacity: 50%;
   transform: scale(0.95);
-  box-shadow: none;
 }
 .cert-img {
   display: flex;
   flex-wrap: wrap;
+  animation: second linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .cert-img-cont {
   position: relative;
@@ -314,7 +363,9 @@ nav a:hover {
 .cert-img-cont:hover .overlay {
   opacity: 1;
 }
-
+/* .project-card:hover .overlay {
+  opacity: 1;
+} */
 .description {
   font-size: 18px;
   margin-bottom: 10px;
@@ -344,6 +395,9 @@ nav a:hover {
   height: 40vh;
   border-radius: 1rem;
   align-content: center;
+  animation: second linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 50%;
 }
 .mydetails label {
   font-size: 1rem;
@@ -406,42 +460,53 @@ footer .credits {
   margin-left: 50px;
   font-size: 13px;
 }
-.foot-button {
-  width: 40px;
-  height: 40px;
-  border: none;
+.foot-button{
+  transform: translateX(900px);
   z-index: 10000;
   bottom: 10px;
   position: sticky;
+}
+.foot-button a{
+  padding: 6px 10px;
+  border: none;
+  color: white;
+  text-decoration: none;
   font-size: 1.5rem;
   border-radius: 5px;
   background-color: #72d2fe;
   box-shadow: 2px 2px 8px 2px grey;
-  transform: translateX(900px);
 }
-.foot-button a {
-  color: white;
-  text-decoration: none;
-}
-.foot-button:hover {
+.foot-button:hover a {
   background-color: #149ddd;
+}
+section{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 @keyframes appear {
   from{
     opacity: 0;
-    transform: translateX(-200px);
+    transform: translateX(-300px);
   }
   to{
     opacity: 1;
     transform: translateX(0px);
   }
 }
-section{
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 20%;
+
+@keyframes second {
+  from{
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
+
 @media (max-width:900px) {
 nav{
   display: none;
@@ -478,6 +543,9 @@ nav{
     background-image: url("./assests/tanjirou-kamado-kimetsu-no-yaiba-uhdpaper.com-4K-109.jpg");
     background-size:100% 700px;
     background-repeat: no-repeat;
+  }
+  .nav-icon{
+    display: block;
   }
   .header{
     height: 700px;

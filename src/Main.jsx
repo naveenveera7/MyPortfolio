@@ -41,9 +41,9 @@ function Main() {
       <Contact />
       <Bottom />
       {isButtonVisible && (
-        <button className="foot-button">
-          <a href="#">⬆</a>
-        </button>
+        <div className="foot-button">
+          <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
       )}
     </main>
   );

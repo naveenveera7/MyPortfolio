@@ -1,39 +1,52 @@
+import { useState } from "react";
 import logo from "./assests/Profile.jpg";
 function Navbar() {
+  const [visible,setVisible]= useState(true);
+  const close=()=>{
+    setVisible(false)
+  }
   return (
+    <div>
+    {visible && (
     <nav id="nav">
       <div>
+      <div className="nav-icon"  onClick={close}><i class="fa-solid fa-bars"></i></div>
         <div className="image">
-          <img src={logo} alt="img" className="profile" />
+          <img src={logo} alt="img" className="profile" title="Naveen Veera"/>
           <h2>Naveen Veera</h2>
+
           <div className="social">
-            <a href="">
-              <i className="fa-brands fa-square-facebook"></i>
+            <a href="facebook.com">
+            <i class="fa-brands fa-facebook"></i>
             </a>
-            <a href="">
-              <i className="fa-brands fa-square-facebook"></i>
+            <a href="Twitter.com">
+            <i class="fa-brands fa-twitter"></i>
             </a>
-            <a href="">
-              <i className="fa-brands fa-square-facebook"></i>
+            <a href="Instagram.com">
+            <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="">
-              <i className="fa-brands fa-square-facebook"></i>
+            <a href="whatsapp.com">
+            <i class="fa-brands fa-whatsapp"></i>
             </a>
-            <a href="">
-              <i className="fa-brands fa-square-facebook"></i>
+            <a href="facebook.com">
+            <i class="fa-regular fa-envelope"></i>
             </a>
           </div>
+          
         </div>
       </div>
       <ul>
-            <li><a href="#home" class="nav-link">🏠 Home</a></li>
-            <li><a href="#about" class="nav-link">🙋🏼‍♂️ About</a></li>
-            <li><a href="#skills" class="nav-link">🏢 Skills</a></li>
-            <li><a href="#projects" class="nav-link">💼 Projects</a></li>
-            <li><a href="#certificates" class="nav-link">📄 Certificates</a></li>
-            <li><a href="#contact" class="nav-link">☎️ Contact</a></li>
+            <li><a href="#home" className="nav-link"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="#about" className="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+            <li><a href="#skills" className="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+            <li><a href="#projects" className="nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+            <li><a href="#certificates" className="nav-link"><i class="fa-solid fa-certificate"></i> Certificates</a></li>
+            <li><a href="#contact" className="nav-link"><i class="fa-solid fa-address-book"></i> Contact</a></li>
         </ul>
+  
     </nav>
+    )}
+    </div>
   );
 }
 export default Navbar;
